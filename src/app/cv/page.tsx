@@ -168,7 +168,7 @@ export default function CvPage() {
 
           {/* Langues & Soft Skills */}
           <section className="terminal-section p-4 sm:p-5">
-            <SectionTitle>langues &amp;&amp; softskills</SectionTitle>
+            <SectionTitle>langues && softskills</SectionTitle>
             <div className="grid sm:grid-cols-2 gap-4">
               <div>
                 <h3 className="text-lg text-foreground/80 mb-1.5">{"// Langues"}</h3>

@@ -6,9 +6,9 @@ Site portfolio personnel, développé pour centraliser mon CV, mes projets et me
 
 ## Aperçu
 
-- **Accueil** — page centrale avec liens vers CV, projets, GitHub, LinkedIn, Steam et [Syskat](https://syskat.vercel.app/)
-- **CV** — présentation détaillée (profil, compétences, projets, expériences, formation, langues, soft skills, hobbies), avec téléchargement en PDF
-- **Projets** — liste enrichie de tous mes projets, avec contexte, difficultés rencontrées, ce que j'en retiens, et captures d'écran
+- **Accueil** : page centrale avec liens vers CV, projets, GitHub, LinkedIn, Steam et [Syskat](https://syskat.vercel.app/)
+- **CV** : présentation détaillée (profil, compétences, projets, expériences, formation, langues, soft skills, hobbies), avec téléchargement en PDF
+- **Projets** : liste enrichie de tous mes projets, avec contexte, difficultés rencontrées, ce que j'en retiens, et captures d'écran
 
 ## Stack technique
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { VT323 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const vt323 = VT323({
@@ -9,8 +10,8 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio : Augustin Wathelet",
-  description: "Portfolio et CV d'Augustin Wathelet, étudiant en développement d'applications",
+  title: "Augustin Wathelet : Portfolio",
+  description: "Portfolio d'Augustin Wathelet, étudiant en DevApp",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -20,7 +21,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${vt323.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

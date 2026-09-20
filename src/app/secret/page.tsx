@@ -21,11 +21,9 @@ const shows: PodiumItem[] = [
   { name: "My Hero Academia", image: "/media/my_hero_academia.jpg" },
 ];
 
-const sizes = [96, 128, 80]; // taille en px pour [rang2, rang1, rang3]
+const sizes = [96, 128, 80];
 
 function Podium({ title, items }: { title: string; items: PodiumItem[] }) {
-  // items[0] = rang 1, items[1] = rang 2, items[2] = rang 3
-  // ordre d'affichage : rang2 (gauche), rang1 (milieu), rang3 (droite)
   const ordered = [
     { item: items[1], rank: 2, size: sizes[0] },
     { item: items[0], rank: 1, size: sizes[1] },
