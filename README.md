@@ -20,6 +20,7 @@ Site portfolio personnel, développé pour centraliser mon CV, mes projets et me
 
 ## Structure du projet
 
+```
 src/
 ├── app/
 │ ├── page.tsx # Page d'accueil
@@ -35,6 +36,7 @@ src/
 public/
 ├── projects/ # Captures d'écran des projets
 └── photo_augustin.jpg # Photo de profil
+```
 
 ## Contact
 
