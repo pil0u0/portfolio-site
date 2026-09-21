@@ -10,24 +10,25 @@ export const skills: SkillCategory[] = [
       { name: "C# / .NET", level: 70 },
       { name: "Java", level: 60 },
       { name: "SQL (MySQL)", level: 60 },
-      { name: "C", level: 40 },
+      { name: "C", level: 30 },
     ],
   },
   {
     category: "Frontend",
     items: [
-      { name: "React", level: 60 },
+      { name: "Next", level: 50 },
       { name: "TypeScript", level: 70 },
       { name: "HTML5 / CSS3", level: 80 },
+      { name: "Tailwind", level: 60 },
     ],
   },
   {
     category: "Outils",
     items: [
       { name: "Git / GitHub", level: 70 },
-      { name: "Jira", level: 40 },
       { name: "LaTeX", level: 70 },
       { name: "Méthodes Agiles (Scrum)", level: 65 },
+      { name: "Vercel", level: 15 },
     ],
   },
 ];

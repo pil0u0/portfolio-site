@@ -30,7 +30,7 @@ export default function CvPage() {
         </Link>
 
         
-        <a href="/cv-augustin-wathelet.pdf"
+        <a href="/cv.pdf"
           download
           className="folder-tile scanline-overlay px-3 py-1.5 text-base hover:border-accent transition-colors inline-block"
         >
