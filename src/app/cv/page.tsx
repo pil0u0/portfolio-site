@@ -206,7 +206,7 @@ export default function CvPage() {
                     {h.text}
                     {h.link && (
                       <>
-                        {" — "}
+                        {" -> "}
                         
                         <a href={h.link}
                           target="_blank"

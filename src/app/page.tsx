@@ -85,20 +85,18 @@ export default function Home() {
   return (
     <main className="flex-1 flex flex-col items-center justify-center px-6 py-16 gap-10">
       <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left max-w-2xl">
-        <div className="w-32 h-32 overflow-hidden border-2 border-panel-border shrink-0">
-          <Link
-            href="/secret"
-            className="block w-32 h-32 overflow-hidden border-2 border-panel-border shrink-0 hover:border-accent transition-colors cursor-pointer"
-          >
-            <Image
-              src="/photo_main.jpeg"
-              alt="Augustin Wathelet"
-              width={128}
-              height={128}
-              className="object-cover w-full h-full"
-            />
-          </Link>
-        </div>
+        <Link
+          href="/secret"
+          className="block w-32 h-32 overflow-hidden border-2 border-panel-border shrink-0 hover:border-accent transition-colors cursor-pointer"
+        >
+          <Image
+            src="/photo_main.jpeg"
+            alt="Augustin Wathelet"
+            width={128}
+            height={128}
+            className="object-cover w-full h-full"
+          />
+        </Link>
         <div className="flex flex-col gap-2">
           <h1 className="text-4xl text-foreground tracking-wide">AUGUSTIN WATHELET</h1>
           <p className="text-xl text-accent-secondary">Étudiant en Développement d&apos;Applications</p>
