@@ -55,9 +55,11 @@ export const projects: {
       "Schéma de base de données relationnel avec tables many-to-many.",
     ],
     screenshots: [
-      "/projects/syskat_main_compressed.png",
-      "/projects/syskat_brand_compressed.png",
-      "/projects/syskat_create_compressed.png",
+      "/projects/syskat_web.png",
+      "/projects/syskat_web_brand.png",
+      "/projects/syskat_web_add.png",
+      "/projects/syskat_mobile.png",
+      "/projects/syskat_mobile_brand.png",
     ],
     context: "Projet personnel, né du constat qu'aucun site ne répertoriait les marques de vêtements indépendantes, et que les marques que je connaissais étaient mal triées/organisées.",
     challenges: [
