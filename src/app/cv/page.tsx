@@ -29,7 +29,7 @@ export default function CvPage() {
           <span className="relative z-10">← Retour</span>
         </Link>
         
-        <a href="/cv_wathelet_augustin_devapp.pdf"
+        <a href="/cv_augustin_wathelet_devapp.pdf"
           download
           className="folder-tile scanline-overlay px-3 py-1.5 text-base hover:border-accent transition-colors inline-block"
         >
