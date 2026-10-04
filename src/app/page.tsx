@@ -98,12 +98,19 @@ export default function Home() {
           />
         </Link>
         <div className="flex flex-col gap-2">
-          <h1 className="text-4xl text-foreground tracking-wide">AUGUSTIN WATHELET</h1>
-          <p className="text-xl text-accent-secondary">Étudiant en Développement d&apos;Applications</p>
-          <p className="text-lg text-foreground/70">
-            En recherche de stage. Passionné par l&apos;écosystème .NET, et le développement backend.
-          </p>
-        </div>
+        <h1 className="text-4xl text-foreground tracking-wide">AUGUSTIN WATHELET</h1>
+        <p className="text-xl text-accent-secondary">Étudiant en Développement d&apos;Applications</p>
+        <p className="text-lg leading-snug text-foreground/70">
+          En recherche d&apos;un stage à Liège, de février à mi-mai 2027. Passionné par le
+          développement web et backend.
+        </p>
+        <a
+          href="mailto:watheletaugustin@proton.me"
+          className="text-lg text-accent hover:underline w-fit mx-auto sm:mx-0"
+        >
+          watheletaugustin@proton.me
+        </a>
+      </div>
       </div>
 
       <div className="w-full max-w-2xl flex flex-col gap-4">

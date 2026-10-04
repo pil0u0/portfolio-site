@@ -10,8 +10,22 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Augustin Wathelet : Portfolio",
-  description: "Portfolio d'Augustin Wathelet, étudiant en DevApp",
+  metadataBase: new URL("https://www.augustinwathelet.online"),
+  title: {
+    default: "Augustin Wathelet : Portfolio",
+    template: "%s | Augustin Wathelet",
+  },
+  description:
+    "Portfolio d'Augustin Wathelet, étudiant en développement d'applications à HELMo (Liège), en recherche de stage de février à mi-mai 2027.",
+  openGraph: {
+    title: "Augustin Wathelet : Portfolio",
+    description:
+      "Étudiant en développement d'applications à HELMo, en recherche de stage. CV et projets en ligne.",
+    url: "/",
+    siteName: "Augustin Wathelet",
+    locale: "fr_BE",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

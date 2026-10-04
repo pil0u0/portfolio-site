@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { projects } from "@/data/cv";
 import ScreenshotGallery from "@/components/ScreenshotGallery";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projets",
+};
 
 function TreeList({ items }: { items: string[] }) {
   return (

@@ -1,5 +1,10 @@
 import Link from "next/link";
 import { skills, projects, education, languages, softSkills, experience, hobbies } from "@/data/cv";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "CV",
+};
 
 function SkillBar({ level }: { level: number }) {
   return (
