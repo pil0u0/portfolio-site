@@ -72,6 +72,28 @@ export const projects: {
   },
   {
     year: "2026",
+    title: "Katino (projet perso)",
+    stack: "Svelte 5, TypeScript, Chart.js",
+    description: "Jeu de machine à sous en ligne",
+    highlights: [
+      "Grille 3×3, 1000 crédits virtuels de départ et parties chronométrées de 60 secondes.",
+      "Graphique temps/crédits comparant la partie en cours, la précédente et la meilleure.",
+    ],
+    screenshots: [
+      "/projects/katino.png", 
+      "/projects/katino_game.png",
+      "/projects/katino_result.png",
+    ],
+    context: "Projet personnel solo, entièrement côté navigateur : pas de backend ni de base de données, tout est géré en mémoire pendant la session.",
+    challenges: [
+      "Gérer l'état du jeu (crédits, minuteur, historique des parties) sans backend.",
+      "Représenter l'évolution des crédits dans le temps pour comparer plusieurs parties.",
+    ],
+    learnings: "Séparer la logique du jeu de l'interface : le moteur est du TypeScript pur, testable sans navigateur, et l'interface se contente d'afficher l'état.",
+    link: "https://katino.vercel.app/O",
+  },
+  {
+    year: "2026",
     title: "Messagerie sécurisée",
     stack: "C#",
     description: "Application desktop de messagerie (Client/Serveur) sécurisée.",
