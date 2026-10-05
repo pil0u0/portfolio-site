@@ -87,7 +87,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left max-w-2xl">
         <Link
           href="/secret"
-          className="block w-32 h-32 overflow-hidden border-2 border-panel-border shrink-0 hover:border-accent transition-colors cursor-pointer"
+          className="block w-38 h-38 overflow-hidden border-2 border-panel-border shrink-0 hover:border-accent transition-colors cursor-pointer"
         >
           <Image
             src="/photo_main.jpeg"
