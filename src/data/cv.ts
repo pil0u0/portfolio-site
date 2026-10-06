@@ -90,7 +90,7 @@ export const projects: {
       "Représenter l'évolution des crédits dans le temps pour comparer plusieurs parties.",
     ],
     learnings: "Séparer la logique du jeu de l'interface : le moteur est du TypeScript pur, testable sans navigateur, et l'interface se contente d'afficher l'état.",
-    link: "https://katino.vercel.app/O",
+    link: "https://katino.vercel.app/",
   },
   {
     year: "2026",
